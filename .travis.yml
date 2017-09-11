@@ -3,4 +3,5 @@ install:
   - ./install.git v2.13.2
   - ./install.hub 2.2.8
 script:
+# list here all branches to be maintained:
   - ./plumedbot v2.3 v2.4 master
