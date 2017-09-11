@@ -3,4 +3,4 @@ install:
   - ./install.git v2.13.2
   - ./install.hub 2.2.8
 script:
-  - ./plumedbot v2.3 master
+  - ./plumedbot v2.3 v2.4 master
