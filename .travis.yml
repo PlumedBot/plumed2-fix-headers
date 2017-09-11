@@ -1,0 +1,6 @@
+install:
+  - export PATH="$HOME/opt/bin:$PATH"
+  - ./install.git v2.13.2
+  - ./install.hub 2.2.8
+script:
+  - ./plumedbot v2.3 master
