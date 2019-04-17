@@ -1,7 +1,7 @@
 install:
   - export PATH="$HOME/opt/bin:$PATH"
-  - ./install.git v2.19.1
-  - ./install.hub 2.5.1
+  - ./install.git v2.21.0
+  - ./install.hub 2.11.2
 script:
 # list here all branches to be maintained:
-  - ./plumedbot v2.4 v2.5 master
+  - ./plumedbot v2.5 master
